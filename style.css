@@ -24,6 +24,7 @@ aside nav a{display:block;width:100%;color:#000;text-decoration:none;text-shadow
 aside nav a:before{content:"";display:inline-block;position:absolute;background:#ccc;left:-30px;top:6px;width:16px;height:16px;-webkit-box-shadow:0 0 6px rgba(0,0,0,0.1);box-shadow:0 0 6px rgba(0,0,0,0.1)}
 aside nav a:hover:not(:active){color:#41b7d8;text-decoration:underline}
 aside nav a+a{margin-top:30px}
+.bindex nav a:nth-child(1):before,.bservice nav a:nth-child(2):before,.bequipement nav a:nth-child(3):before{background:#41b7d8;-webkit-box-shadow:0 0 6px rgba(65,183,216,0.7);box-shadow:0 0 6px rgba(65,183,216,0.7)}
 .content{width:66.6%;}
 .content header{font-size:0;line-height:0;background:#41b7d8;padding:0;margin-bottom:30px;border:solid 10px #fff}
 .content .left,.content .right{width:50%}
