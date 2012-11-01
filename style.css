@@ -42,7 +42,7 @@ footer .footlink .txt{position:absolute;top:400px}
 .home .left address img{width:30%;float:left;margin-right:10px}
 .home .left address h4,.home .left address h5,.home .left address p{margin:0;text-transform:none}
 .home .left address+address{margin-top:10px}
-.home.content header:after{margin-top:54%}
+.home.content header:after{margin-top:64%}
 @media screen and (max-width: 700px){.content .module{width:100%}
 .content .left{padding:0}
 .content .right{padding:0}
