@@ -1,5 +1,6 @@
 *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;text-rendering:optimizeLegibility;position:relative}
 img{max-width:100%;border:none}
+address{width:100%}
 body{margin:0;font-family:'Oswald',"Helvetica Neue",sans-serif;color:#333;-webkit-background-size:contain;-moz-background-size:contain;background-size:contain}
 body .pagewrap{background:url("bg.svg") bottom left no-repeat}
 html,body{min-height:100%;font-size:18px}
@@ -43,7 +44,7 @@ footer .footlink .txt{position:absolute;top:400px}
 .home .left address img{width:30%;float:left;margin-right:10px}
 .home .left address h4,.home .left address h5,.home .left address p{margin:0;text-transform:none}
 .home .left address+address{margin-top:10px}
-.home.content header:after{margin-top:66%}
+.home.content header:after{margin-top:58%}
 @media screen and (max-width: 700px){.content .module{width:100%}
 .content .left{padding:0}
 .content .right{padding:0}
