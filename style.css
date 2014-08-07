@@ -126,7 +126,7 @@ aside nav {
   background: #eee;
   z-index: 1;
   padding: 30px;
-  padding-left: 48px;
+  padding-left: 1em;
   border-right: solid 20px #ddd;
 }
 aside nav a {
@@ -139,10 +139,8 @@ aside nav a {
 aside nav a:before {
   content: "";
   display: inline-block;
-  position: absolute;
+  margin-right: 1em;
   background: #ccc;
-  left: -30px;
-  top: 6px;
   width: 16px;
   height: 16px;
   -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.15);
@@ -160,6 +158,7 @@ aside nav a+a {
 }
 .mobilead {
   display: none;
+  margin-top: 0;
 }
 .bindex nav a:nth-child(1):before,
 .bservice nav a:nth-child(2):before,
@@ -314,17 +313,15 @@ footer .footlink .txt {
     display: none;
   }
   aside nav {
-    padding: 10px 30px;
-    padding-left: 45px;
+    padding: 0.5em 1em;
   }
   aside nav a {
     display: inline-block;
     width: auto;
+    padding-left: 1em;
   }
   aside nav a+a {
     margin: 0;
-    padding: 0;
-    margin-left: 50px;
     border: none;
   }
   aside img {
@@ -343,9 +340,8 @@ footer .footlink .txt {
 .content header {
   margin: 0 !important;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 520px) {
   aside nav a {
-    display: block;
-    margin: 0 !important;
+    width: 50%;
   }
 }
