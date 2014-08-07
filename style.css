@@ -60,8 +60,8 @@ footer {
 }
 p img,
 ul img {
-  border: solid 10px #fff;
-  margin-left: 15px;
+  border: solid 0.5em #fff;
+  margin-left: 1em;
   -webkit-transform: rotate(2deg);
   -moz-transform: rotate(2deg);
   -o-transform: rotate(2deg);
@@ -71,7 +71,7 @@ ul img {
   max-width: 200px;
 }
 iframe {
-  border: solid 10px #fff;
+  border: solid 0.5em #fff;
   width: 100%;
   height: 300px;
   margin: 1em 0;
@@ -92,7 +92,7 @@ footer,
 footer>ul {
   display: inline-block;
   vertical-align: top;
-  padding: 30px;
+  padding: 2em;
   width: 100%;
 }
 aside nav,
@@ -125,9 +125,8 @@ aside h1 {
 aside nav {
   background: #eee;
   z-index: 1;
-  padding: 30px;
-  padding-left: 1em;
-  border-right: solid 20px #ddd;
+  padding: 0.8em 1em;
+  border-right: solid 1.5em #ddd;
 }
 aside nav a {
   display: block;
@@ -135,6 +134,7 @@ aside nav a {
   color: #000;
   text-decoration: none;
   text-shadow: 0 1px 0 #eee;
+  padding: 0.8em 0;
 }
 aside nav a:before {
   content: "";
@@ -150,11 +150,8 @@ aside nav a:hover:not(:active) {
   color: #2a6db0;
   text-decoration: underline;
 }
-aside nav a+a {
-  margin-top: 30px;
-}
 .ad {
-  margin-top: 30px;
+  margin-top: 2em;
 }
 .mobilead {
   display: none;
@@ -175,10 +172,10 @@ aside nav a+a {
   height: 0;
   width: 0;
   position: absolute;
-  top: 0;
-  right: -43px;
-  border: solid 13px transparent;
-  border-left: solid 13px #eee;
+  top: 0.8em;
+  right: -1.7em;
+  border: solid 0.8em transparent;
+  border-left: solid 0.8em #eee;
   border-right: none;
 }
 .content {
@@ -190,8 +187,8 @@ aside nav a+a {
   line-height: 0;
   background: #2a6db0;
   padding: 0;
-  margin-bottom: 30px;
-  border: solid 10px #fff;
+  margin-bottom: 2em;
+  border: solid 0.5em #fff;
 }
 .content header:after {
   content: "";
@@ -215,11 +212,11 @@ aside nav a+a {
 }
 .content .left {
   padding: 0px;
-  padding-right: 15px;
+  padding-right: 1em;
 }
 .content .right {
   padding: 0px;
-  padding-left: 15px;
+  padding-left: 1em;
 }
 footer {
   text-align: center;
@@ -231,11 +228,11 @@ footer {
 }
 footer p {
   margin: 0;
-  margin-top: 15px;
+  margin-top: 1em;
 }
 footer p.first {
   margin: 0;
-  margin-bottom: 15px;
+  margin-bottom: 1em;
 }
 footer .footlink {
   display: inline-block;
@@ -262,14 +259,14 @@ footer .footlink .txt {
   left: 50px;
 }
 .home .left address {
-  border: solid 10px #fff;
+  border: solid 0.5em #fff;
   background: #fff;
   display: inline-block;
 }
 .home .left address img {
   width: 30%;
   float: left;
-  margin-right: 10px;
+  margin-right: 0.5em;
 }
 .home .left address h4,
 .home .left address h5,
@@ -278,23 +275,20 @@ footer .footlink .txt {
   text-transform: none;
 }
 .home .left address+address {
-  margin-top: 10px;
+  margin-top: 0.5em;
 }
 .home.content header:after {
   margin-top: 58%;
 }
-@media screen and (max-width: 700px) {
-  .content .module {
-    width: 100%;
-  }
-  .content .left {
-    padding: 0;
-  }
-  .content .right {
-    padding: 0;
+@media screen and (max-width: 1000px) {
+  html {
+    font-size: 16px;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 888px) {
+  html {
+    font-size: 18px;
+  }
   aside,
   .content {
     width: 100%;
@@ -313,16 +307,12 @@ footer .footlink .txt {
     display: none;
   }
   aside nav {
-    padding: 0.5em 1em;
+    padding: 0;
   }
   aside nav a {
     display: inline-block;
     width: auto;
     padding-left: 1em;
-  }
-  aside nav a+a {
-    margin: 0;
-    border: none;
   }
   aside img {
     max-width: 70%;
@@ -335,6 +325,25 @@ footer .footlink .txt {
   }
   .mobilead {
     display: inline-block;
+  }
+}
+@media screen and (max-width: 700px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 622px) {
+  html {
+    font-size: 18px;
+  }
+  .content .module {
+    width: 100%;
+  }
+  .content .left {
+    padding: 0;
+  }
+  .content .right {
+    padding: 0;
   }
 }
 .content header {
