@@ -5,6 +5,9 @@
   text-rendering: optimizeLegibility;
   position: relative;
 }
+small {
+  font-size: 0.618em;
+}
 img {
   max-width: 100%;
   border: none;
